@@ -1,0 +1,19 @@
+.card{
+    width: 22rem !important;
+    border: 2px solid black;
+}
+.card-main{
+    /* display: flex; */
+    /* flex-direction: row; */
+
+}
+.card-main-first{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px ;
+    
+}
+.card img{
+    width: 21.7rem;
+    height: 20rem;
+}
