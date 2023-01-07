@@ -12,6 +12,7 @@ a{
 }
 li{
     list-style: none;
+    font-size:large;
 }
 .main-nav{
     margin: 0;
@@ -22,6 +23,8 @@ li{
     grid-template-columns: 10rem 1fr 2fr 1fr 10rem;
 }
 .logo{
+    height: 200px;
+    width: 100px;
     grid-column: 2/3;
     justify-content: start;
     align-items: center;
