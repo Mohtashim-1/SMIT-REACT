@@ -10,7 +10,7 @@ import '../../App.css'
 function MainPage() {
   return (
 <>
-      
+        
       <Carousel/>
       <Card/>
       <Card/>
