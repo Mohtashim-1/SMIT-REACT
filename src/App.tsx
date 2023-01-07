@@ -11,6 +11,9 @@ import About from "./components/About-us/About-us";
 import Coarses from "./components/Coarses/Coarses";
 import Card from  './components/Card/Card'
 import Post1 from "./components/Post/Post1";
+import Login from "./components/Login/Login";
+import Register from "./components/Register/Register1";
+// import Register from "./components/Register/Register";
 
 function App() {
   return (
@@ -24,6 +27,9 @@ function App() {
 <Route path="/About-us/About-us.tsx" element={<About/>}/>
 <Route path="/Coarses/Coarses.tsx" element={<Coarses/>}/>
 <Route path="/Post/Post1.tsx" element={<Post1/>}/>
+<Route path="/Login/Login.tsx" element={<Login/>}/>
+<Route path="/Register/Register.tsx" element={<Register/>}/>
+
   </Routes>
 
   

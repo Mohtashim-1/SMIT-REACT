@@ -2,11 +2,12 @@ import React from "react";
 import Nav from "../Nav/Nav";
 import "./Post.css";
 import { Link } from "react-router-dom";
-import Admission from "../Admission/Admission";
-
+import Admission from "../Post/Admission";
+// import { BrowserRouter, Route, Routes } from "react-router-dom";
 const Post1 = () => {
   return (
     <>
+    
       <h1>Coarse Details</h1>
       <h1>Branding Workshop</h1>
       <img src="../pic/Post01.jpg" alt="post-1" />
@@ -40,10 +41,11 @@ const Post1 = () => {
       {/* <Link className="btn btn-primary" to="../Admission/Admission.tsx">
         Admission
       </Link> */}
-      <Link className="btn btn-primary" to="./Admission/Admission.tsx">
-                Details
-              </Link>
-              <a href="./Admission/Admission.tsx">go somewhere</a>
+      <Link className="btn btn-primary" to="./Admission.tsx">
+        Details
+      </Link>
+      <a href="./Admission.tsx">go somewhere</a>
+      <Admission/>
     </>
   );
 };

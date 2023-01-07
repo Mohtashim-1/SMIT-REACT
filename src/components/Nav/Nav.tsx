@@ -41,6 +41,16 @@ const Nav = () => {
                 Coarses
               </Link>
             </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="./Login/Login.tsx">
+                Login
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="./Register/Register.tsx">
+                Signup
+              </Link>
+            </li>
           </ul>
           <form className="form-inline my-2 my-lg-0">
             <input

@@ -5,15 +5,16 @@ import Copyright from "../Copyright/Copyright";
 import Footer from "../Footer/Footer";
 import Nav from "../Nav/Nav";
 import '../../App.css'
+// import Login from "../Login/Login";
 
 
 function MainPage() {
   return (
 <>
-        
+      
       <Carousel/>
       <Card/>
-      <Card/>
+      {/* <Card/> */}
       <Footer/>
       <Copyright/>
 </>
