@@ -15,8 +15,8 @@ function MainPage() {
       <Carousel/>
       <Card/>
       {/* <Card/> */}
-      <Footer/>
-      <Copyright/>
+      {/* <Footer/>
+      <Copyright/> */}
 </>
   );
 }

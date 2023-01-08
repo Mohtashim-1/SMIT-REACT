@@ -1,7 +1,8 @@
 .Copyright{
     border: 2px solid black;
-    color: white;
-    background-color: black;
+    color: black;
+    /* background: linear-gradient(to right, rgb(231, 233, 231), green); */
+    /* background-color: black; */
     font-size: large;
     font-weight: 900;
     height: 30px;

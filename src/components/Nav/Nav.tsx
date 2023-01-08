@@ -1,11 +1,12 @@
 import React from "react";
 import {Link} from 'react-router-dom';
+import './Nav.css';
 const Nav = () => {
   return (
-    <div>
+    <div className="main-nav-1">
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <Link className="navbar-brand" to="/">
-          <img src="./pic/logo.png" alt="" />
+          <img src="../pic/logo.png" className="logo" alt="logo" />
         </Link>
         <button
           className="navbar-toggler"
@@ -52,7 +53,7 @@ const Nav = () => {
               </Link>
             </li>
           </ul>
-          <form className="form-inline my-2 my-lg-0">
+          {/* <form className="form-inline my-2 my-lg-0">
             <input
               className="form-control mr-sm-2"
               type="search"
@@ -64,8 +65,8 @@ const Nav = () => {
               type="submit"
             >
               Search
-            </button>
-          </form>
+            </button> */}
+          {/* </form> */}
         </div>
       </nav>
     </div>

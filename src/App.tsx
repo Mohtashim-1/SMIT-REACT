@@ -12,7 +12,9 @@ import Coarses from "./components/Coarses/Coarses";
 import Card from  './components/Card/Card'
 import Post1 from "./components/Post/Post1";
 import Login from "./components/Login/Login";
-import Register from "./components/Register/Register1";
+import Registration from "./components/Registration/Registration";
+import Copyright from "./components/Copyright/Copyright";
+import Footer from "./components/Footer/Footer";
 // import Register from "./components/Register/Register";
 
 function App() {
@@ -28,9 +30,11 @@ function App() {
 <Route path="/Coarses/Coarses.tsx" element={<Coarses/>}/>
 <Route path="/Post/Post1.tsx" element={<Post1/>}/>
 <Route path="/Login/Login.tsx" element={<Login/>}/>
-<Route path="/Register/Register.tsx" element={<Register/>}/>
+<Route path="/Register/Register.tsx" element={<Registration/>}/>
 
   </Routes>
+  <Footer/>
+  <Copyright/>
 
   
   </BrowserRouter>

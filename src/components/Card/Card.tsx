@@ -21,6 +21,62 @@ const Card = () => {
             </Link>
           </div>
         </div>
+        <div className="card">
+          <img src="./pic/Post01.jpg" className="card-img-top" alt="..." />
+          <div className="card-body">
+            <h5 className="card-title">Branding Workshop</h5>
+            <p className="card-text">
+              SMIT has organized another practical workshop for all of you to
+              enhance your skills & become entrepreneur in the field of Graphic
+              Designing on Sunday, 1st Jan 2023 at 12pm Sharp.
+            </p>
+            <Link className="btn btn-primary" to="./Post/Post1.tsx">
+              Details
+            </Link>
+          </div>
+        </div>
+        <div className="card">
+          <img src="./pic/Post01.jpg" className="card-img-top" alt="..." />
+          <div className="card-body">
+            <h5 className="card-title">Branding Workshop</h5>
+            <p className="card-text">
+              SMIT has organized another practical workshop for all of you to
+              enhance your skills & become entrepreneur in the field of Graphic
+              Designing on Sunday, 1st Jan 2023 at 12pm Sharp.
+            </p>
+            <Link className="btn btn-primary" to="./Post/Post1.tsx">
+              Details
+            </Link>
+          </div>
+        </div>
+        <div className="card">
+          <img src="./pic/Post01.jpg" className="card-img-top" alt="..." />
+          <div className="card-body">
+            <h5 className="card-title">Branding Workshop</h5>
+            <p className="card-text">
+              SMIT has organized another practical workshop for all of you to
+              enhance your skills & become entrepreneur in the field of Graphic
+              Designing on Sunday, 1st Jan 2023 at 12pm Sharp.
+            </p>
+            <Link className="btn btn-primary" to="./Post/Post1.tsx">
+              Details
+            </Link>
+          </div>
+        </div>
+        <div className="card">
+          <img src="./pic/Post01.jpg" className="card-img-top" alt="..." />
+          <div className="card-body">
+            <h5 className="card-title">Branding Workshop</h5>
+            <p className="card-text">
+              SMIT has organized another practical workshop for all of you to
+              enhance your skills & become entrepreneur in the field of Graphic
+              Designing on Sunday, 1st Jan 2023 at 12pm Sharp.
+            </p>
+            <Link className="btn btn-primary" to="./Post/Post1.tsx">
+              Details
+            </Link>
+          </div>
+        </div>
       </div>
     </div>
   );

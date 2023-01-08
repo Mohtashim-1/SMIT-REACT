@@ -22,9 +22,13 @@ li{
     height: 10rem;
     grid-template-columns: 10rem 1fr 2fr 1fr 10rem;
 }
+/* img{
+    height: 75px;
+    width: 239px;
+} */
 .logo{
-    height: 200px;
-    width: 100px;
+    height: 75px;
+    width: 239px;
     grid-column: 2/3;
     justify-content: start;
     align-items: center;

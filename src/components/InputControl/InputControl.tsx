@@ -1,10 +1,11 @@
 import React from 'react'
-import './InputControl/InputControl.modules.css';
-
-const InputControl = () => {
+import './InputControl.css'
+function InputControl(props:any){
   return (
-    <div>InputControl</div>
+  <div className='container'>
+    {props.label && <label></label>}
+    <input type="text" {...props} />
+  </div>
   )
 }
-
-export default InputControl
+export default InputControl;
